@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def email_arr
-    self.emails.split(/[, ]?/)
+    self.emails.split(/[, ]/)
   end
   
   c = EmailParser.new("john@doe.com, person@somewhere.org")
