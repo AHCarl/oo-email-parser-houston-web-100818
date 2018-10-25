@@ -16,7 +16,7 @@ class EmailParser
   
   c = EmailParser.new("john@doe.com, person@somewhere.org hey@you.org")
   
-  c.email_arr.compact!
+  c.email_arr
   binding.pry
   
   
