@@ -10,14 +10,10 @@ class EmailParser
     self.emails = emails 
   end
   
-  def email_arr
+  def parse
     self.emails.split(/, | /)
   end
   
-  c = EmailParser.new("john@doe.com, person@somewhere.org hey@you.org")
-  
-  c.email_arr
-  binding.pry
   
   
 end
