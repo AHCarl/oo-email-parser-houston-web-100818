@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def parse
-    self.emails.split(/, | /)
+    q = self.emails.split(/, | /)
   end
   
   
