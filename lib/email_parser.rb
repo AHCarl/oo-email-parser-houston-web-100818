@@ -10,8 +10,10 @@ class EmailParser
   end
   
   def email_arr
-    self.emails.split
+    self.emails.split(/[, ]/)
   end
+  
+  c = EmailParser.new()
   
   
 end
