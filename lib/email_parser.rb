@@ -14,7 +14,7 @@ class EmailParser
     self.emails.split(/, /)
   end
   
-  c = EmailParser.new("john@doe.com, person@somewhere.org")
+  c = EmailParser.new("john@doe.com, person@somewhere.org hey@you.org")
   
   c.email_arr.compact!
   binding.pry
